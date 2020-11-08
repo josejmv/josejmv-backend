@@ -1,0 +1,30 @@
+{
+  "name": "josejmv-backend",
+  "version": "1.0.0",
+  "description": "this is the backend of my personal portfolio",
+  "author": "JoseJMV",
+  "license": "ISC",
+  "keywords": [
+    "josejmv",
+    "portfolio"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josejmv/josejmv-backend.git"
+  },
+  "main": "./src",
+  "type": "module",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.13"
+  }
+}
