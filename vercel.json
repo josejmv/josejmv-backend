@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "src/main.ts",
+            "use": "@vercet/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/graphql",
+            "dest": "src/main.ts",
+            "methods": [
+                "POST"
+            ]
+        }
+    ]
+}
