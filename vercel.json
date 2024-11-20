@@ -8,9 +8,10 @@
     ],
     "routes": [
         {
-            "src": "/graphql",
+            "src": "/(.*)",
             "dest": "dist/main.ts",
             "methods": [
+                "GET",
                 "POST"
             ]
         }
